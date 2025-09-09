@@ -7,10 +7,6 @@ There are a few approaches I tried, using a few libraries, but all were down, be
 
 
 1. using selenium and web automation :
-Approach - the websited is loaded with in the driver with the help of selenium, we scrap the data from the web page itself. Currently it fetches the author, the time it was posted, and the actual post.
-
-
-Setup and Running the project :
     - To run this, navigate to selenium-approach.
     - refer the packages used in the project in the requirements. file and install them.
     - It uses msedgedriver for scrapping, donwload the edge driver matching to your edge browser version and place it in the same folder.
@@ -20,6 +16,7 @@ Setup and Running the project :
     - hit enter in the console, once you have logged in.
     - data will be logged in scrapped_tweets\currentdatetime\tweets.db 
     - you can check for logs in tweets_scrapper.log
+    - The websited is loaded with in the driver with the help of selenium, we scrap the data from the web page itself. Currently it fetches the author, the time it was posted, 		and the actual
 
 2. using twsscrap ( Experimental ) :
     - To run this, navigate to selenium-approach.
